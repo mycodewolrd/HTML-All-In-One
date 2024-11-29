@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+
+int love;
+    cout<<"Enter Love Index"<<endl;
+    cin>>love;
+    if (love<=10)
+    {
+        cout<<"She Love Me";
+    }
+
+    else{
+        cout<<"She Don't Love Me";
+    }
+    
+    return 0;
+}
